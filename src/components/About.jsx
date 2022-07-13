@@ -10,11 +10,13 @@ const About = () => {
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
         </div>
         <p className='text-xl mt-20'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga amet nesciunt magni iusto odit at mollitia perferendis? Voluptatum modi assumenda rem reiciendis voluptatem ad possimus sed obcaecati praesentium tempora, minima quis magni amet, incidunt quidem cumque tempore dignissimos dolor doloremque nulla iure. Illum omnis quisquam magnam debitis sit asperiores nesciunt.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eaque sed excepturi dolores nostrum laboriosam ad aut, soluta, deleniti nobis ipsum earum nemo tempore hic culpa odit aliquid neque quisquam.
+           
         </p>
         <br/>
         <p className='text-xl '>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos molestiae dicta earum debitis? Distinctio, nihil natus, accusantium dolores aut porro dolor nostrum et, provident aliquid recusandae. Nesciunt quae, ea rerum natus quis consequuntur hic sit ex illo molestias saepe, possimus quos minus quam laborum quo corporis. Aliquam et sapiente vel?
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, perspiciatis aperiam animi laudantium suscipit facilis.
+           
         </p>
      </div>  
     </div>
