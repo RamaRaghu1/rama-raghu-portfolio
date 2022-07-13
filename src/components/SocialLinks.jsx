@@ -13,7 +13,7 @@ const SocialLinks = () => {
                 LinkedIn <FaLinkedin size={30}/>
                 </>
             ),
-            href:'https://linkedin.com',
+            href:'https://www.linkedin.com/in/rama-raghu-0307691b1/',
             style:'rounded-tr-md',
 
 
@@ -25,7 +25,7 @@ const SocialLinks = () => {
                 Github <FaGithub size={30}/>
                 </>
             ),
-            href:'https://github.com',
+            href:'https://github.com/RamaRaghu1',
             
 
         },
@@ -54,7 +54,7 @@ const SocialLinks = () => {
         },
     ]
   return (
-    <div className='hidden md:flex flex-col top-[35%] left-0 fixed'>
+    <div className='flex flex-col top-[35%] left-0 fixed'>
         <ul>
             {links.map(({id, child, href, style, download})=>{
                 return(

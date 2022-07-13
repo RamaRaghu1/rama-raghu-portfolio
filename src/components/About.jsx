@@ -10,12 +10,13 @@ const About = () => {
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
         </div>
         <p className='text-xl mt-20'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eaque sed excepturi dolores nostrum laboriosam ad aut, soluta, deleniti nobis ipsum earum nemo tempore hic culpa odit aliquid neque quisquam.
-           
+          I am a Full Stack Developer based in Mumbai. I have Bachelor of Science degree in Computer Science from University of Mumbai.
+          Currenty, I love to work on web application using technologies like
+            React, Node JS, Express JS and Redux.
         </p>
         <br/>
         <p className='text-xl '>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, perspiciatis aperiam animi laudantium suscipit facilis.
+        I strive to build beautiful web applications through carefully crafted code and user-centric design.
            
         </p>
      </div>  

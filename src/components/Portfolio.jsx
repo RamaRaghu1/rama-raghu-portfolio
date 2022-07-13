@@ -1,7 +1,8 @@
 import React from 'react';
-import drumkit from '../assets/portfolio/drumkit.png';
-import dicegame from '../assets/portfolio/dicegame.png';
+
+
 import rststore from '../assets/portfolio/rststore.png'
+
 
 const Portfolio = () => {
 
@@ -9,15 +10,9 @@ const Portfolio = () => {
         {
             id:1,
             src:rststore,
+        
         },
-        {
-            id:2,
-            src:drumkit,
-        },
-        {
-            id:3,
-            src:dicegame,
-        },
+      
     ]
 
     
@@ -36,18 +31,19 @@ const Portfolio = () => {
             </div>
 
 
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+            <div className='grid  gap-8 px-12 sm:px-0'>
                {portfolios.map(({ id, src})=>(
                     
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                         <img 
                         src={src} 
-                        alt='' 
+                        alt='RST Store' 
                         className='rounded-md duration-200 hover:scale-105'
                         />
-                        <div className='flex items-center justify-center'>
-                            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' >Demo</button>
-                            <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                        <div className='flex items-center justify-evenly '>
+                            <a href='https://rst--store.herokuapp.com/' target='_blank'><button  className='w-1/2 px-6  font-bold py-3 m-4 duration-200 hover:scale-105' >Demo</button></a>
+
+                            <a href='https://github.com/RamaRaghu1/rststore' target='_blank'><button  className='w-1/2 px-6  font-bold py-3 m-4 duration-200 hover:scale-105' >Code</button></a>
                         </div>
     
                     </div>
